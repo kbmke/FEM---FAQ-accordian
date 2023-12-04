@@ -93,24 +93,30 @@ h6 {
 */
 
 :root {
-  $cardBG: hsl(0, 0%, 100%);
-  $mainBG: hsl(275, 100%, 97%);
-  $fontclr: hsl(292, 16%, 49%);
-  $boldfont: hsl(292, 42%, 14%);
-  $font-wt-lt: 400;
-  $font-wt-md: 600;
-  $font-wt-hvy: 700;
   font-size: 16px;
 }
+
+$cardBG: hsl(0, 0%, 100%);
+$mainBG: hsl(275, 100%, 97%);
+$fontclr: hsl(292, 16%, 49%);
+$boldfont: hsl(292, 42%, 14%);
+$font-wt-lt: 400;
+$font-wt-md: 600;
+$font-wt-hvy: 700;
 
 @media only screen and (min-width: 375px) and (max-width: 1440px) {
   /* ABOVE CHANGES SETTINGS AT 375px SCREEN SIZE TO 769px SCREEN SIZE*/
 
   body {
-    background-color: var($mainBG);
-    background-image: url(../assets/images/background-pattern-desktop.svg);
+    // background-color: var($mainBG);
+    background-image: url(../assets/images/background-pattern-);
   }
-
+  .header {
+    color: boldfont;
+  }
+  .para {
+    color: fontclr;
+  }
   .attribution {
     font-size: 11px;
     text-align: center;

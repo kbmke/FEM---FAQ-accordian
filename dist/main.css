@@ -88,12 +88,23 @@ h6 {
   font-size: 16px;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-align: center;
+@media only screen and (min-width: 375px) and (max-width: 1440px) {
+  /* ABOVE CHANGES SETTINGS AT 375px SCREEN SIZE TO 769px SCREEN SIZE*/
+  body {
+    background-image: url(../assets/images/background-pattern-);
+  }
+  .header {
+    color: boldfont;
+  }
+  .para {
+    color: fontclr;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-align: center;
+  }
 }
