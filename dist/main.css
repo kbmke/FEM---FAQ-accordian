@@ -1,15 +1,4 @@
-@font-face {
-  font-family: "normal";
-  src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "italic";
-  src: url("./assets/fonts/WorkSans-Italic-VariableFont_wght.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-}
+/** @format */
 /*
   Use a more-intuitive box-sizing model.
 */
@@ -86,18 +75,69 @@ h6 {
 */
 :root {
   font-size: 16px;
+  font-family: worksans;
+  --mainBG: hsl(275, 100%, 97%);
+  --fontclr: hsl(292, 16%, 49%);
+  --boldfont: hsl(292, 42%, 14%);
+  --cardBG: hsl(0, 0%, 100%);
+  --font-wt-lt: 400;
+  --font-wt-md: 600;
+  --font-wt-hvy: 700;
+}
+
+.hide {
+  display: none;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 1440px) {
   /* ABOVE CHANGES SETTINGS AT 375px SCREEN SIZE TO 769px SCREEN SIZE*/
+  @font-face {
+    font-family: "worksans";
+    src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "worksans-italic";
+    src: url("./assets/fonts/WorkSans-Italic-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+  }
   body {
-    background-image: url(../assets/images/background-pattern-);
+    background-color: var(--mainBG);
+    background-image: url(../assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: worksans;
+    font-size: 16px;
+  }
+  .card {
+    background-color: var(--cardBG);
+    width: 37.5rem;
+    margin: 10rem auto;
+    border-radius: 1rem;
+    padding: 3rem;
+  }
+  .star {
+    float: left;
   }
   .header {
-    color: boldfont;
+    font-weight: 700;
+    color: var(--boldfont);
+    font-size: 3.5rem;
+  }
+  .question-wrapper {
+    align-content: center;
+    align-self: stretch;
+    justify-content: space-between;
+    display: flex;
+    border: 2px solid black;
+  }
+  .question {
+    font-size: 1.125rem;
+    font-weight: 600;
   }
   .para {
-    color: fontclr;
+    color: var(--fontclr);
   }
   .attribution {
     font-size: 11px;
