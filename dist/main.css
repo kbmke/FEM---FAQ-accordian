@@ -120,6 +120,12 @@ h6 {
   .star {
     float: left;
   }
+  .header-wrapper {
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    border: 1px solid red;
+  }
   .header {
     font-weight: 700;
     color: var(--boldfont);
@@ -135,6 +141,9 @@ h6 {
   .question {
     font-size: 1.125rem;
     font-weight: 600;
+  }
+  .para1 {
+    font-size: 1rem;
   }
   .para {
     color: var(--fontclr);
