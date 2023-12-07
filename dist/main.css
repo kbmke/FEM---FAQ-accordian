@@ -115,16 +115,17 @@ h6 {
     width: 37.5rem;
     margin: 10rem auto;
     border-radius: 1rem;
-    padding: 3rem;
+    padding: 2.5rem;
   }
   .star {
     float: left;
+    width: 2.5rem;
+    height: 2.5rem;
   }
   .header-wrapper {
     align-content: center;
     align-self: center;
     align-items: center;
-    border: 1px solid red;
   }
   .header {
     font-weight: 700;
@@ -136,17 +137,16 @@ h6 {
     align-self: stretch;
     justify-content: space-between;
     display: flex;
-    border: 2px solid black;
+    padding: 1rem;
   }
   .question {
     font-size: 1.125rem;
     font-weight: 600;
   }
-  .para1 {
-    font-size: 1rem;
-  }
   .para {
     color: var(--fontclr);
+    line-height: 1.5rem;
+    align-self: stretch;
   }
   .attribution {
     font-size: 11px;
