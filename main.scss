@@ -123,20 +123,16 @@ h6 {
 
     .card {
         background-color: var(--cardBG);
-        width: 37.5rem;
-        margin: 10rem auto;
+        width: 30rem;
+        margin: 9rem auto;
         border-radius: 1rem;
-        padding: 2.5rem;
+        padding: 1rem;
     }
 
     .star {
-        float: left;
+        margin: .8rem;
         width: 2.5rem;
         height: 2.5rem;
-
-        // align-items: center;
-        // align-self: space-around;
-   
     }
 
     .header-wrapper {
@@ -145,6 +141,8 @@ h6 {
         align-items: center;
 
         // border: 1px solid red;
+        display: flex;
+
         // temporary for visual
    
     }
@@ -152,7 +150,7 @@ h6 {
     .header {
         font-weight: 700;
         color: var(--boldfont);
-        font-size: 3.5rem;
+        font-size: 2.4rem;
     }
 
     .question-wrapper {

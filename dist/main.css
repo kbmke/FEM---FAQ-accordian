@@ -112,13 +112,13 @@ h6 {
   }
   .card {
     background-color: var(--cardBG);
-    width: 37.5rem;
-    margin: 10rem auto;
+    width: 30rem;
+    margin: 9rem auto;
     border-radius: 1rem;
-    padding: 2.5rem;
+    padding: 1rem;
   }
   .star {
-    float: left;
+    margin: 0.8rem;
     width: 2.5rem;
     height: 2.5rem;
   }
@@ -126,11 +126,12 @@ h6 {
     align-content: center;
     align-self: center;
     align-items: center;
+    display: flex;
   }
   .header {
     font-weight: 700;
     color: var(--boldfont);
-    font-size: 3.5rem;
+    font-size: 2.4rem;
   }
   .question-wrapper {
     align-content: center;
